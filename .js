@@ -7,6 +7,7 @@ document.getElementById("formAdocao").addEventListener("submit", function (e) {
     let Peso = document.getElementById("Peso").value;
     let idade = document.getElementById("idade").value;
     let cidade = document.getElementById("cidade").value;
+        let Estado = document.getElementById("Estado").value;
     let Tipo = document.getElementById("Tipo sanguíneo").value;
     let quintal = document.querySelector('input[name="quintal"]:checked');
     let pets = document.querySelector('input[name="pets"]:checked');
